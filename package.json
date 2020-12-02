@@ -1,0 +1,25 @@
+{
+  "name": "aspireiq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "nyc ava",
+    "lint": "standard",
+    "test": "ava --verbose",
+    "test:watch": "ava --watch"
+  },
+  "ava": {
+    "files": [
+      "test/**/*.spec.js"
+    ]
+  },
+  "keywords": [],
+  "author": "Álvaro José Agámez Licha",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^3.13.0",
+    "nyc": "^15.1.0",
+    "standard": "^16.0.3"
+  }
+}
